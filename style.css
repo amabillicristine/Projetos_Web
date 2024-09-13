@@ -3,7 +3,7 @@ body{
     padding: 15px;
 }
 
-header{
+.cabecalho{
     justify-content: center;
     display: flex;
     align-items: center;
@@ -20,7 +20,7 @@ hr{
     width: 100%;
 }
 
-section{
+.conteudo{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: medium;
     text-align: center;
@@ -32,6 +32,9 @@ table{
     width: 50%;
     margin: 0 auto;
 }
+tr{
+    border: 1px solid black;
+}
 
 td{
     
@@ -40,6 +43,7 @@ td{
 h1{
     color: #8a7d6d;
     margin-left: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 h2{
