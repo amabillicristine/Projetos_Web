@@ -53,3 +53,16 @@ h2{
 h3{
     color: burlywood;
 }
+footer{
+    justify-content: center;
+    align-items: center;
+}
+
+.review{
+    justify-content: center;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
