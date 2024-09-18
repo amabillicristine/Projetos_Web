@@ -4,6 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <style>
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 18px;
+            text-align: left;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 12px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+        img {
+            border-radius: 50%;
+        }
+    </style>
     <title>Autores</title>
 </head>
 <body>
@@ -31,34 +58,35 @@
         <hr size="9" noshade="noshade" style="width: 100%;">
     </header>
 
-    <section>
-           <a nome="autores"><h2 style="color:#723327fa">Autores</h2></a> 
-           <table border="1" width="50%">
+    <section style="display: flex; flex-direction: column; align-items: center; gap: 20px;">
+
+           <a nome="autores"><h2>Autores</h2></a> 
+           <table>
                 <tr>
-                    <td rowspan="1"><center><img src="https://m.media-amazon.com/images/S/amzn-author-media-prod/iblkrbg9irquvd3pjp0g8fn7g6._SY450_CR0%2C0%2C450%2C450_.jpg" width="140" height="160"></center></td>
-                    <td><center>Alyson Derrick</center></td>
-                    <td><center>Alyson Derrick nasceu e foi criada em Greenville, <br>Pensilvânia. Após se formar em Literatura Inglesa em Pittsburgh.</center></td>
+                    <td rowspan="1"><img src="https://m.media-amazon.com/images/S/amzn-author-media-prod/iblkrbg9irquvd3pjp0g8fn7g6._SY450_CR0%2C0%2C450%2C450_.jpg" width="140" height="160"></td>
+                    <td>Alyson Derrick</td>
+                    <td>Alyson Derrick nasceu e foi criada em Greenville, <br>Pensilvânia. Após se formar em Literatura Inglesa em Pittsburgh.</td>
                 </tr>
            </table>
-           <table border="1" width="50%">
+           <table>
                 <tr>
-                    <td rowspan="1"><center><img src="https://m.media-amazon.com/images/S/amzn-author-media-prod/m7s55i3lt6q4gp809evnvbqkr3._SX237_CR0%2C0%2C237%2C237_.jpg" width="150" height="160"></center></td>
-                    <td><center>George Orwell</center></td>
-                    <td><center>George Orwell, pseudônimo de Eric Arthur Blair, nasceu em 1903 na Índia Britânica. <br>Ele é conhecido por suas obras “1984” e “A Revolução dos Bichos”, que criticam o totalitarismo</center></td>
+                    <td rowspan="1"><img src="https://m.media-amazon.com/images/S/amzn-author-media-prod/m7s55i3lt6q4gp809evnvbqkr3._SX237_CR0%2C0%2C237%2C237_.jpg" width="150" height="160"></td>
+                    <td>George Orwell</td>
+                    <td>George Orwell, pseudônimo de Eric Arthur Blair, nasceu em 1903 na Índia Britânica. <br>Ele é conhecido por suas obras “1984” e “A Revolução dos Bichos”, que criticam o totalitarismo</td>
                 </tr>
            </table>
-           <table border="1" width="50%">
+           <table>
             <tr>       
-                <td rowspan="1"><center><img src="https://m.media-amazon.com/images/S/amzn-author-media-prod/urdupbvd590pq3m51f8lguccth._SY450_CR0%2C0%2C450%2C450_.jpg" width="150" height="160"></center></td>
-                <td><center>Matt Haig</center></td>
-                <td><center>Matt Haig, nascido em 1975 em Sheffield, Inglaterra, é um romancista e jornalista inglês.<br> Ele é autor de best-sellers como “A Biblioteca da Meia-Noite” e "Razões para Continuar Vivo"</center></td>
+                <td rowspan="1"><img src="https://m.media-amazon.com/images/S/amzn-author-media-prod/urdupbvd590pq3m51f8lguccth._SY450_CR0%2C0%2C450%2C450_.jpg" width="150" height="160"></td>
+                <td>Matt Haig</td>
+                <td>Matt Haig, nascido em 1975 em Sheffield, Inglaterra, é um romancista e jornalista inglês.<br> Ele é autor de best-sellers como “A Biblioteca da Meia-Noite” e "Razões para Continuar Vivo"</td>
             </tr>
             </table>
-            <table border="1" width="50%">
+            <table>
                 <tr>       
-                    <td rowspan="1"><center><img src="https://upload.wikimedia.org/wikipedia/commons/7/75/Clarice_Lispector_%28cropped%29.jpg" width="110" height="160"></center></td>
-                    <td><center>Clarice Lispector</center></td>
-                    <td><center>Clarice Lispector, nascida em 1920 na Ucrânia, foi uma escritora e jornalista brasileira. <br>Ela é conhecida por suas obras inovadoras como “A Hora da Estrela” e "Perto do Coração Selvagem"</center></td>
+                    <td rowspan="1"><img src="https://upload.wikimedia.org/wikipedia/commons/7/75/Clarice_Lispector_%28cropped%29.jpg" width="110" height="160"></td>
+                    <td>Clarice Lispector</td>
+                    <td>Clarice Lispector, nascida em 1920 na Ucrânia, foi uma escritora e jornalista brasileira. <br>Ela é conhecida por suas obras inovadoras como “A Hora da Estrela” e "Perto do Coração Selvagem"</td>
                 </tr>
            </table>
     </section>

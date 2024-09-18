@@ -31,6 +31,7 @@ table{
     border-collapse: collapse;
     width: 50%;
     margin: 0 auto;
+    border: 1px;
 }
 tr{
     border: 1px solid black;
@@ -56,13 +57,51 @@ h3{
 footer{
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .review{
     justify-content: center;
-    padding: 15px;
     display: flex;
     align-items: center;
-    width: auto;
-    height: auto;
+    flex-direction: column;
 }
+.formulario{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+/* .formulario input[type="text"],
+.formulario input[type="email"],
+.formulario input[type="password"],
+.formulario textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.formulario button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.formulario button:hover {
+    background-color: #45a049;
+} */
